@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "OwreKynge";
+  src: url("./assets/fonts/OwreKynge.ttf");
+}
+@font-face {
+  font-family: "Daydream";
+  src: url("./assets/fonts/Daydream.ttf");
+}
+@font-face {
+  font-family: "GhastlyPixe";
+  src: url("./assets/fonts/GhastlyPixe.ttf");
+}
+@font-face {
+  font-family: "pixelpoiiz";
+  src: url("./assets/fonts/pixelpoiiz.ttf");
+}
+@font-face {
+  font-family: "super cat font Regular";
+  src: url("./assets/fonts/super-cat-font.ttf");
+}
+.owreKynge {
+  font-family: OwreKynge;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pixelpoiiz {
+  font-family: pixelpoiiz;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ghastlyPixe {
+  font-family: GhastlyPixe;
+}
+.superCat {
+  font-family: "super cat font Regular";
+  text-transform: lowercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background {
+  background-image: url("./wallpapaer.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 1000px;
+  z-index: -10;
 }
